@@ -52,12 +52,12 @@ export default function createF2(__operation) {
     }
 
     initChart(props) {
-      const { width, height, data, plotCfg, forceFit, configs } = props;
+      const { data, width, height, padding, configs } = props;
       const chart = new F2.Chart({
         id: this.chartId,
         width,
         height,
-        plotCfg,
+        padding,
         pixelRatio: window.devicePixelRatio,
       });
       chart.source(data);
