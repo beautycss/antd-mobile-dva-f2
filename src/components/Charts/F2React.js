@@ -16,7 +16,6 @@ export default function createF2(__operation) {
       ]).isRequired,
       width: PropTypes.number.isRequired,
       height: PropTypes.number.isRequired,
-      configs: PropTypes.object,
     };
 
     constructor(props, context) {
@@ -67,13 +66,8 @@ export default function createF2(__operation) {
 
     render() {
       return (
-        // <div id={this.chartId} />
         <canvas
           ref={i => (this.chartId = i)}
-          // style={{
-          //   height: height || 400,
-          //   backgroundColor: backgroundColor || 'transparent'
-          // }}
         />
       );
     }
