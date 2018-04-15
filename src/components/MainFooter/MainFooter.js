@@ -3,16 +3,13 @@ import { TabBar } from 'antd-mobile';
 import { connect } from 'dva';
 import { routerRedux } from 'dva/router';
 
-import styles from './style.less';
+import styles from './mainFooter.less';
 
 @connect(({ global, loading }) => ({
   global,
   loading: loading.models.global,
 }))
 export default class MainFooter extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     let { children, dispatch } = this.props;
