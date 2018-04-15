@@ -23,7 +23,7 @@ import BarDodge from '../../components/Charts/Bar/dodge';
   data={barDodgeData}
   // width={360} // 不设置宽度则宽度自适应父容器
   height={360} // 需根据实际需要设置高度
-  padding={30} // 可传入padding给chart组件
+  padding={30} // 可传入padding给F2React组件
   // configs={{}} // 需要传入给F2React组件的一些配置
 />
 ```
