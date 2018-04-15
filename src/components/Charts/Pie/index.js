@@ -16,7 +16,7 @@ export default class ChartDemo extends Component {
 
     if (data) {
       data.map((obj) => {
-        map[obj.x] = `${obj.y}%`;
+        map[obj.x] = `${obj.y * 100}%`;
       });
       chart.legend({
         position: 'right',
