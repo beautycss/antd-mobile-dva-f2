@@ -1,6 +1,5 @@
 import { stringify } from 'qs';
 import request from '../utils/request';
-import { host } from './params';
 
 export async function getUsers(params) {
   return request(`/api/users?${stringify(params)}`);
