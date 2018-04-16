@@ -11,7 +11,7 @@ export default class ChartDemo extends Component {
 
   F2Chart = createF2((chart, configs) => {
     const { data } = this.props;
-    const colors = configs.colors || this.state.colors;
+    const colors = (configs && configs.colors) || this.state.colors;
     const map = {};
 
     if (data) {
