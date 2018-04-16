@@ -15,6 +15,7 @@
     "classnames": "^2.2.5",
     "dva": "^2.1.0",
     "dva-loading": "^2.0.0",
+    "f2react": "^1.0.7",
     "flex.css": "^1.1.7",
     "lodash": "^4.17.5",
     "mockjs": "^1.0.1-beta3",

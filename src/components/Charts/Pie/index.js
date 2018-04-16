@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import createF2 from '../F2React';
+import createF2 from 'f2react';
 import autoWidth from '../autoWidth';
 
 @autoWidth()
