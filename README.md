@@ -1,8 +1,8 @@
 # antd-mobile-dva-f2
 
-Ant Mobile 2 + Dva2 + Roadhog2 + F2
+Ant Mobile2 + Dva2 + Roadhog2 + F2
 
-基于 [dva-antd-mobile-starter](https://github.com/xlsdg/dva-antd-mobile-starter)，主要将Roadhog升级到了2.3.0，并参照 [g2-react](https://github.com/antvis/g2-react) 简单封装了一个F2组件 [f2react](https://github.com/beautycss/f2react) 以便在React中使用。
+基于 [dva-antd-mobile-starter](https://github.com/xlsdg/dva-antd-mobile-starter)，主要将Roadhog升级到了2.3.0，以及做了一些优化；并参照 [g2-react](https://github.com/antvis/g2-react) 简单封装了一个组件 [f2react](https://github.com/beautycss/f2react)，以便在React中使用F2图表。
 
 * 参照Antd Pro工程进行了一些优化，并将`request`组件移植过来。
 * 增加了图表的mock数据，以结合dva和F2图表进行数据演示。
